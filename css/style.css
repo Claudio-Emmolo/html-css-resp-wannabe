@@ -128,21 +128,17 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* -----------------------------------
-    MEDIA QUERY FOR TABLET
+   /* -----------------------------------
+    MEDIA QUERY FOR FULL VIEW // BONUS
     -----------------------------------*/
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 1160px){
     
-     body{
-         overflow-x: hidden;
-     }
-
     .container{
-        width: 100vw;
+        width: 100%;
     }
-    
- }
+
+}
 
   /* -----------------------------------
     MEDIA QUERY FOR SMARTPHONE
@@ -218,17 +214,4 @@ img {
    .why-us li {
     margin-bottom: 3.5rem;
 }
-}
-
-  /* -----------------------------------
-    MEDIA QUERY FOR FULL VIEW // BONUS
-    -----------------------------------*/
-
-@media screen and (min-width: 768px) and (max-width: 1160px){
-    header{
-        min-width: 1160px;
-    }
-    main{
-        max-width: 1160px;
-    }
 }

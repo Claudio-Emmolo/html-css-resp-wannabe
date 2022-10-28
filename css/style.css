@@ -176,6 +176,16 @@ img {
    }
 
    p.text{
-    padding: 0 1.5rem;
+    padding: 0 2rem;
+   }
+
+    /* Steps Section */
+    .steps{
+        margin: 0;
+    }
+
+    .steps .col{
+        width: 100%;
+        margin-bottom: 2rem;
    }
 }

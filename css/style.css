@@ -128,7 +128,9 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- /* MEDIA QUERY FOR TABLET */
+ /* -----------------------------------
+    MEDIA QUERY FOR TABLET
+    -----------------------------------*/
 
  @media screen and (max-width: 768px) {
     
@@ -141,6 +143,10 @@ img {
     }
     
  }
+
+  /* -----------------------------------
+    MEDIA QUERY FOR SMARTPHONE
+    -----------------------------------*/
 
  @media screen and (max-width: 480px){
 
@@ -212,4 +218,17 @@ img {
    .why-us li {
     margin-bottom: 3.5rem;
 }
+}
+
+  /* -----------------------------------
+    MEDIA QUERY FOR FULL VIEW // BONUS
+    -----------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1160px){
+    header{
+        min-width: 1160px;
+    }
+    main{
+        max-width: 1160px;
+    }
 }
